@@ -1,16 +1,5 @@
-# ── Core web framework ────────────────────────────────────────────────────────
 streamlit>=1.35.0
-
-# ── Computer Vision ───────────────────────────────────────────────────────────
 opencv-python-headless>=4.9.0.80
 numpy>=1.24.0
 Pillow>=10.0.0
-
-# ── AI / Deep Learning ────────────────────────────────────────────────────────
 tensorflow-cpu>=2.15.0,<3.0.0
-# Alternative for laptops (CPU-only, slightly smaller):
-# tensorflow-cpu>=2.15.0,<3.0.0
-
-# ── NOTE: streamlit-webrtc is NOT required in this fixed version ──────────────
-# Webcam capture is handled by Streamlit's built-in st.camera_input widget,
-# which works in all modern browsers with zero extra packages.
